@@ -1,0 +1,31 @@
+/*============ AREA IMPORTS ============*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/*============ AREA GLOBAL STYLES ============*/
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Manrope", sans-serif;
+}
+
+/*============ AREA HEADER STYLES ============*/
+header {
+  background-image: url("img/bgHeader.svg");
+}
+
+.headerTexts {
+  margin: 236px 0 235px 121px;
+}
+
+.headerTitle {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 82px;
+}
+
+.headerSubtitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
