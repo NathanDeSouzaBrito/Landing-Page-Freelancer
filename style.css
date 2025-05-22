@@ -2,16 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
 /*============ AREA GLOBAL STYLES ============*/
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+}
+body {
   font-family: "Manrope", sans-serif;
 }
 
 /*============ AREA HEADER STYLES ============*/
 header {
+  padding: 4rem 2rem; /* ajustável conforme necessidade */
   background-image: url("img/bgHeader.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .headerTexts {
